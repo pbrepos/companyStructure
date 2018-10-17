@@ -1,0 +1,116 @@
+li {
+    list-style-type: none;
+}
+
+.btn-block {
+    white-space: inherit;
+}
+
+.ul-tree {
+    white-space: nowrap;
+}
+
+.icon-trash {
+    cursor: pointer;
+}
+
+.wrapper {
+    padding: 60px 0 50px 0;
+}
+
+footer {
+    background-color: #f7f7f7;
+    margin-top: 20px;
+}
+
+.tree-container {
+    overflow-y: auto; /* или scroll */
+    min-height: 750px !important;
+    max-height: 750px !important;
+}
+
+.tree-container::-webkit-scrollbar {
+    width: 1px;
+}
+
+.tree-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.tree-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+/* ie 10+ */
+.tree-container {
+    -ms-overflow-style: none;
+}
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.tree-container {
+    overflow: -moz-scrollbars-none;
+}
+
+.menu {
+    background-color: #00547E;
+    border-bottom: 4px solid #04A3ED;
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    position: absolute;
+    margin: 0px;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.navbar-header > a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 5px 30px;
+}
+
+.navbar-header > a:hover {
+    text-decoration: none;
+    color: #04A3ED;
+}
+
+.information-container {
+    padding-bottom: 20px;
+}
+
+.button-container {
+    padding-bottom: 15px;
+}
+
+.block-btn {
+    border-color: red;
+    color: red;
+    opacity: 0.5;
+}
+
+span.error {
+    color: red;
+    margin-left: 5px;
+}
+
+.container-table-employee {
+    display: none;
+}
+
+.custom-control-label {
+    white-space: nowrap;
+}
+
+.active-page {
+    background: lightblue;
+}
+
+ul {
+    padding-left: 15px;
+}
